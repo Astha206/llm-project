@@ -1,0 +1,14 @@
+Machine Learning is a field of artificial intelligence that allows computers
+to learn patterns from data and make predictions or decisions without being
+explicitly programmed for every task.
+
+Supervised learning uses labeled data to train a model. Common supervised
+learning tasks include classification and regression.
+
+Unsupervised learning works with unlabeled data. It is commonly used for
+finding patterns or groups in data. Clustering is an example of unsupervised
+learning.
+
+Reinforcement learning involves an agent learning by interacting with an
+environment. The agent receives rewards or penalties based on its actions
+and tries to learn a strategy that maximizes its total reward.
