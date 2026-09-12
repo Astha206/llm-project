@@ -1,6 +1,14 @@
 with open("knowledge.txt","r",encoding="utf-8") as file:
     document = file.read()
 
+MAX_CHARS = 10000
+
+
+if len(document) > MAX_CHARS:
+    raise ValueError(
+        f"Document is too large. Maximum allowed size is {MAX_CHARS} characters."
+    )
+
 from google import genai
 from dotenv import load_dotenv
 import os 
